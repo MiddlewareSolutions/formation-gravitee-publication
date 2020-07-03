@@ -1,13 +1,13 @@
 {
-  "host": "gateway.marvel.com",
+  "host": "gateway.formation.middleware-solutions.fr",
   "basePath": "/marvel/ele/1",
   "schemes": [
-    "http"
+    "https"
   ],
   "swagger": "2.0",
   "info": {
-    "title": "gateway.marvel.com",
-    "version": "Cable"
+    "title": "API Marvel",
+    "version": "1"
   },
   "tags": [
     {
