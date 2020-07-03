@@ -7,7 +7,7 @@
   "swagger": "2.0",
   "info": {
     "title": "API Marvel",
-    "version": "1"
+    "version": "1.4"
   },
   "tags": [
     {
@@ -120,6 +120,12 @@
         "responses": {
           "200": {
             "description": "No response was specified",
+            "schema": {
+              "$ref": "#/definitions/CharacterDataWrapper"
+            }
+          },
+          "500": {
+            "description": "Erreur serveur",
             "schema": {
               "$ref": "#/definitions/CharacterDataWrapper"
             }
